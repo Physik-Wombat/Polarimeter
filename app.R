@@ -48,7 +48,7 @@ ui <- navbarPage(
     
     mainPanel(
       conditionalPanel(
-        "input.pira=='Polarimeter mit leerer BeobachtungskÃ¼vetten'",
+        "input.pira=='Polarimeter mit leerer Beobachtungskuevette'",
         ((
           tags$video(
             src = "PolarimeterLeer.mp4",
@@ -64,7 +64,7 @@ ui <- navbarPage(
     
     mainPanel(
       conditionalPanel(
-        "input.pira=='Polarimeter mit der wÃ¤ssrigen Rinderserumalbumin - LÃ¶sung'",
+        "input.pira=='Polarimeter mit Rinderserumalbumin'",
         ((
           tags$video(
             src = "PolarimeterRSA.mp4",
@@ -80,7 +80,7 @@ ui <- navbarPage(
     
     mainPanel(
       conditionalPanel(
-        "input.pira=='Polarimeter mit einer wÃ¤ssrigen Glukose - LÃ¶sung'",
+        "input.pira=='Polarimeter Glukose'",
         ((
           tags$video(
             src = "PolarimeterGlucose.mp4",
@@ -96,7 +96,7 @@ ui <- navbarPage(
     
     mainPanel(
       conditionalPanel(
-        "input.pira=='Polarimeter mit einer wÃ¤ssrigen LÃ¶sung von Milchzucker'",
+        "input.pira=='Polarimeter mit Milchzucker'",
         ((
           tags$video(
             src = "PolarimeterLaktose.mp4",

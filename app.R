@@ -51,7 +51,7 @@ ui <- navbarPage(
         "input.pira=='Polarimeter mit leerer BeobachtungskÃ¼vetten'",
         ((
           tags$video(
-            src = "PolarimeterLeer.mp4",
+            src = "Polarimeter Leer.mp4",
             width = "750px",
             height = "520px",
             type = "video/mp4",
@@ -67,7 +67,7 @@ ui <- navbarPage(
         "input.pira=='Polarimeter mit der wÃ¤ssrigen Rinderserumalbumin - LÃ¶sung'",
         ((
           tags$video(
-            src = "PolarimeterRSA.mp4",
+            src = "Polarimeter RSA.mp4",
             width = "750px",
             height = "520px",
             type = "video/mp4",
@@ -83,7 +83,7 @@ ui <- navbarPage(
         "input.pira=='Polarimeter mit einer wÃ¤ssrigen Glukose - LÃ¶sung'",
         ((
           tags$video(
-            src = "PolarimeterGlucose.mp4",
+            src = "Polarimeter Glucose.mp4",
             width = "750px",
             height = "520px",
             type = "video/mp4",

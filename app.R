@@ -80,7 +80,7 @@ ui <- navbarPage(
     
     mainPanel(
       conditionalPanel(
-        "input.pira=='Polarimeter Glukose'",
+        "input.pira=='Polarimeter mit Glukose'",
         ((
           tags$video(
             src = "PolarimeterGlucose.mp4",

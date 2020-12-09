@@ -39,8 +39,8 @@ ui <- navbarPage(
           "Polarimeter mit Milchzucker",
           "Polarimeter mit Kampfer X",
           "Polarimeter mit Kampfer O",
-          "Polarimeter mit D (-) Valin",
-          "Polarimeter mit L (+) Valin"
+          "Polarimeter mit D (-) Valin (4 %)",
+          "Polarimeter mit L (+) Valin (4 %)"
         ),
         selected = "Polarimeter mit leerer BeobachtungskÃ¼vetten"
       )
@@ -139,7 +139,7 @@ ui <- navbarPage(
     )),
     
     mainPanel(
-      conditionalPanel("input.pira=='Polarimeter mit D (-) Valin'",
+      conditionalPanel("input.pira=='Polarimeter mit D (-) Valin (4 %)'",
                        ((
                          tags$video(
                            src = "PolarimeterDValin.mp4",
@@ -153,7 +153,7 @@ ui <- navbarPage(
     ),
     
     mainPanel(
-      conditionalPanel("input.pira=='Polarimeter mit L (+) Valin'",
+      conditionalPanel("input.pira=='Polarimeter mit L (+) Valin (4 %)'",
                        ((
                          tags$video(
                            src = "PolarimeterLValin.mp4",
